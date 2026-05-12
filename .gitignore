@@ -1,0 +1,17 @@
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Datos pesados y resultados (no subimos los PDFs por confidencialidad)
+data/input/*.pdf
+data/output/*.csv
+*.html
+
+# Ocultos del sistema
+.DS_Store
