@@ -2,7 +2,8 @@
 venv/
 env/
 .env
-
+# lib
+lib/
 # Archivos de caché de Python
 __pycache__/
 *.pyc
