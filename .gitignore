@@ -1,18 +1,22 @@
-# Entornos virtuales
-venv/
-env/
-.env
-# lib
-lib/
-# Archivos de caché de Python
+# Node (Frontend)
+frontend/node_modules/
+frontend/dist/
+.eslintcache
+
+# Python (Backend)
 __pycache__/
 *.pyc
-.pytest_cache/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
 
-# Datos pesados y resultados (no subimos los PDFs por confidencialidad)
-data/input/*.pdf
-data/output/*.csv
-*.html
+# Base de datos vectorial y temporales
+vector_data/
+temp_*.pdf
 
-# Ocultos del sistema
+# Archivos del Sistema Operativo
 .DS_Store
+Thumbs.db
