@@ -1,0 +1,17 @@
+# Ignorar cache de modelos de IA locales
+model_cache/
+model_cache
+
+# Ignorar entornos virtuales y cache de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Ignorar base de datos local SQLite (para que el contenedor inicie limpio)
+feedback.db
+temp_*.pdf

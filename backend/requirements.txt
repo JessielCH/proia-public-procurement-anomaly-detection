@@ -6,3 +6,7 @@ pymupdf
 scikit-learn
 pydantic
 python-multipart
+networkx
+nltk
+umap-learn
+matplotlib

@@ -20,3 +20,11 @@ temp_*.pdf
 # Archivos del Sistema Operativo
 .DS_Store
 Thumbs.db
+
+# Ignorar caché del modelo de IA local
+backend/model_cache/
+model_cache/
+
+# Ignorar base de datos local de feedback
+backend/feedback.db
+*.db
