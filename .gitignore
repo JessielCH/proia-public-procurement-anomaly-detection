@@ -27,4 +27,4 @@ model_cache/
 
 # Ignorar base de datos local de feedback
 backend/feedback.db
-*.db
+*.dbgit status
